@@ -8,91 +8,227 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <title>Shivey Portfolio</title>
-
+  <script src="https://kit.fontawesome.com/441a588260.js" crossorigin="anonymous"></script>
   <!-- Boostrap Stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="styles.css" media="screen">
+  <link rel="stylesheet" href="css styles.css" media="screen">
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <a class="navbar-brand" href="index.html" id="logo">Shivey Singh</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-            </ul>
-          </div>
-          <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-      </nav>
-      <!-- End of navbar -->
-
-  <!-- Start of container -->
-  <div class="container">
-    <main class="row">
-      <div class="col-md-8">
-        <article class="block">
-          <h1 class="block-header">Portfolio</h1>
-          <hr />
-          <div class="row">
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-6 col-md-12 col-lg-6">
-              <img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt="">
-            </div>
-          </div>
-        </article>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Shivey Singh</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="shivey singh cv.htm">CV</a>
+          </li>
+        </ul>
       </div>
-    </main>
-  </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
+
+  <!-- portfolio grid using Bootstrap card conponent -->
+  <main class="container mt-5 block">
+    <section>
+      <h1 class="block-header">My Work</h1>
+      <hr class="pb-1" />
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top img-fluid" src="C:\Users\shive\Documents\UOB Bootcamp\Assignment 2\imgs\screenshot.png" alt="preview of Horiseon website">
+            <article class="card-body">
+              <h5 class="card-title">Mastermind Quiz</h5>
+
+              <div class="project-buttons">
+                <button class="btn btn-50 btn-primary">
+                  <a href="https://genius-pending.github.io/FullStackMasterMindQuiz/" target="_blank">
+                    <i class="fal fa-search">
+                      View Project
+                    </i>
+                  </a>
+                </button>
+                <button class="btn btn-50 btn-secondary">
+                  <a href="https://github.com/genius-pending/FullStackMasterMindQuiz" target="_blank">
+                    <i class="fab fa-github">
+                      View Code
+                    </i>
+                  </a>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top img-fluid" src="C:\Users\shive\Documents\UOB Bootcamp\Assignment 2\imgs\screenshot 4.png"
+              alt="preview of a responsive portfolio">
+            <article class="card-body">
+              <h5 class="card-title">Best Of The Rest</h5>
+
+              <div class="project-buttons">
+                <button class="btn btn-50 btn-primary">
+                  <a href="https://genius-pending.github.io/BestOfTheRest/" target="_blank">
+                    <i class="fal fa-search">
+                      View Project
+                    </i>
+                  </a>
+                </button>
+                <button class="btn btn-50 btn-secondary">
+                  <a href="https://github.com/genius-pending/BestOfTheRest" target="_blank">
+                    <i class="fab fa-github">
+                      View Code
+                    </i>
+                  </a>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top img-fluid" src="C:\Users\shive\Documents\UOB Bootcamp\Assignment 2\imgs\screenshot 3.png" alt="picture of lion on a website">
+            <article class="card-body">
+              <h5 class="card-title">My Daily Planner</h5>
+
+              <div class="project-buttons">
+                <button class="btn btn-50 btn-primary">
+                  <a href="https://genius-pending.github.io/MyDailyPlanner/" target="_blank">
+                    <i class="fal fa-search">
+                      View Project
+                    </i>
+                  </a>
+                </button>
+                <button class="btn btn-50 btn-secondary">
+                  <a href="https://github.com/genius-pending/MyDailyPlanner" target="_blank">
+                    <i class="fab fa-github">
+                      View Code
+                    </i>
+                  </a>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top img-fluid" src="C:\Users\shive\Documents\UOB Bootcamp\Assignment 2\imgs\screenshot 2.png" alt="pixel art illustration">
+            <article class="card-body">
+              <h5 class="card-title">My WeatherApp</h5>
+
+              <div class="project-buttons">
+                <button class="btn btn-50 btn-primary">
+                  <a href="https://genius-pending.github.io/WeatherDashboard/"target="_blank">
+                    <i class="fal fa-search">
+                      View Project
+                    </i>
+                  </a>
+                </button>
+                <button class="btn btn-50 btn-secondary">
+                  <a href="https://github.com/genius-pending/WeatherDashboard" target="_blank">
+                    <i class="fab fa-github">
+                      View Code
+                    </i>
+                  </a>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top img-fluid" src="C:\Users\shive\Documents\UOB Bootcamp\Assignment 2\imgs\screenshot 5.png" alt="preview of Github website ">
+            <article class="card-body">
+              <h5 class="card-title">My GitHub</h5>
+
+              <div class="project-buttons">
+               
+                  </a>
+                </button>
+                <button class="btn btn-50 btn-secondary">
+                  <a href="https://github.com/genius-pending" target="_blank">
+                    <i class="fab fa-github">
+                      View Page
+                    </i>
+                  </a>
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card mb-3">
+            <img class="card-img-top img-fluid" src="C:\Users\shive\Documents\UOB Bootcamp\Assignment 2\imgs\linkdnscreenshot.png" alt="preview of Github website ">
+            <article class="card-body">
+              <h5 class="card-title">My LinkedIn</h5>
+
+              <div class="project-buttons">
+               
+                  </a>
+                </button>
+                <button class="btn btn-50 btn-secondary">
+                  <a href="https://www.linkedin.com/in/shiveysingh/" target="_blank">
+                    <i class="fab fa-linkedin-in">
+                      View Page
+                    </i>
+                  </a>
+                </button>
+              </div>
+      </div>
+    </section>
+  </main>
+
   <!-- End of container -->
 
-  <!-- Start of footer -->
-  <footer class="footer">
-    <div class="two-toned-footer-color"></div>
-    <p class="text-muted text-muted-footer text-center">
-      &copy; Copyright 2018 Shivey Singh
-    </p>
+
+  <!-- Footer -->
+  <footer class="page-footer font-small special-color-dark pt-4">
+
+    <!-- Footer Elements -->
+    <div class="container">
+
+ 
+
+    </div>
+    <!-- Footer Elements -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="index.html"> shivey singh</a>
+    </div>
+    <!-- Copyright -->
+
   </footer>
-  <!-- End of footer -->
+  <!-- Footer -->
+
+
 
   <!-- jQuery CDN -->
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   <!-- Bootstrap CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </script>
 
 </body>
 
