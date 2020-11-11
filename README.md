@@ -4,3 +4,6 @@ Please see the deployed link https://genius-pending.github.io/Shivey-Bootstrap-P
 
 ![](https://github.com/genius-pending/Shivey-Bootstrap-Portfolio/blob/master/imgs/profile%20screenshot.png)
 
+
+Updated Portfolio Screenshot
+![](https://github.com/genius-pending/Shivey-Bootstrap-Portfolio/blob/master/imgs/updatedportfolio.png)
