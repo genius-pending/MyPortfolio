@@ -1,6 +1,6 @@
 # MyPortfolio
 A simple portfolio using Bootstrap 
-Please see the deployed link https://genius-pending.github.io/Shivey-Bootstrap-Portfolio/
+Please see the deployed link https://genius-pending.github.io/MyPortfolio/
 
 ![](https://github.com/genius-pending/Shivey-Bootstrap-Portfolio/blob/master/imgs/profile%20screenshot.png)
 
